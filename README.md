@@ -47,35 +47,6 @@ The AERO FALCON framework has been demonstrated using a small fixed-wing UAV con
 - **Shear Yield Stress (τ_yield)**: 0.00509 MPa
 - **Poisson's Ratio**: 0.15
 
-### Configuration Code
-```python
-# Wing geometry parameters
-wing_config = {
-    'airfoil': 'clarky',
-    'chord_root': 0.21,        # m
-    'span': 1.28,              # m
-    'aspect_ratio': 6.09,
-    'wing_area': 0.269,        # m²
-    'taper_ratio': 1.0,        # rectangular wing
-}
-
-# Operating conditions
-flight_conditions = {
-    'velocity_low': 8.89,      # m/s (32 km/h)
-    'velocity_high': 30.278,   # m/s (109 km/h)
-    'altitude': 1000,          # m
-    'weight': 17.658,          # N (1.8 kg)
-}
-
-# Structural properties (EPS Foam)
-material_properties = {
-    'E': 0.0038e9,             # Pa (0.0038 GPa)
-    'tau_yield': 0.00509e6,    # Pa (0.00509 MPa)
-    'poisson_ratio': 0.15,
-    't_skin': 0.002,           # m (assumed)
-}
-```
-
 ## References
 [1] A. Hasnayeen, M. R. Iqbal, F. Syeed, and M. Sheikh, "Construction of a Small Fixed Wing UAV for Surveillance," AIAA AVIATION Forum, 2024.
 
