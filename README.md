@@ -51,7 +51,7 @@ The AERO FALCON framework has been demonstrated using a small fixed-wing UAV con
 [1] A. Hasnayeen, M. R. Iqbal, F. Syeed, and M. Sheikh, "Construction of a Small Fixed Wing UAV for Surveillance," AIAA AVIATION Forum, 2024.
 
 [2] Y. Beju and J. Mandal, "Expanded polystyrene (EPS) geofoam: Preliminary characteristic evaluation," Procedia Engineering, vol. 189, pp. 239–246, 2017.
-- [License](#license)
+
 
 ---
 
