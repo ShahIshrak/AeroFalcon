@@ -8,7 +8,7 @@ AERO FALCON: A Low-fidelity aero-structural optimization framework for small UAV
 - [Features](#features)
 - [Results and Visualization](#results-and-visualization)
 - [Methodology](#methodology)
-- [Citation](#citation)
+- [References](#References)
 - [License](#license)
 
 ---
@@ -74,9 +74,9 @@ material_properties = {
     'poisson_ratio': 0.15,
     't_skin': 0.002,           # m (assumed)
 }
+```
 
-
-References
+#References
 [1] A. Hasnayeen, M. R. Iqbal, F. Syeed, and M. Sheikh, "Construction of a Small Fixed Wing UAV for Surveillance," AIAA AVIATION Forum, 2024.
 [2] Y. Beju and J. Mandal, "Expanded polystyrene (EPS) geofoam: Preliminary characteristic evaluation," Procedia Engineering, vol. 189, pp. 239–246, 2017.
 - [License](#license)
