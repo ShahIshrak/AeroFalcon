@@ -54,3 +54,6 @@ The AERO FALCON framework has been demonstrated using a small fixed-wing UAV con
 - [License](#license)
 
 ---
+
+## License
+- Apache License - See license file for more details.
