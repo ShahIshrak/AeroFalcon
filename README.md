@@ -55,7 +55,7 @@ The AERO FALCON framework has been demonstrated using a small fixed-wing UAV con
 ![3D Wing (Both unoptimized and optimized)](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_2_v_8.89.png?raw=true)  
 *Figure 2: Visualization of the 3D wing (Both Unoptimized and Optimized).*
 
-![Comparison of Aerodynamic Characteristics of the Unoptimized and the Optimized Wing](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_3_v_8.89.png?raw=true).
+![Comparison of Aerodynamic Characteristics of the Unoptimized and the Optimized Wing](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_3_v_8.89.png?raw=true)
 *Figure 3: Comparison of Aerodynamic Characteristics of the Unoptimized and the Optimized Wing (V = 32 km/h)*
 
 
@@ -67,7 +67,7 @@ The AERO FALCON framework has been demonstrated using a small fixed-wing UAV con
 ![3D Wing (Both unoptimized and optimized)](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_2_v_30.278.png?raw=true)  
 *Figure 2: Visualization of the 3D wing (Both Unoptimized and Optimized).*
 
-![Comparison of Aerodynamic Characteristics of the Unoptimized and the Optimized Wing](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_3_v_30.278.png?raw=true).
+![Comparison of Aerodynamic Characteristics of the Unoptimized and the Optimized Wing](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_3_v_30.278.png?raw=true)
 *Figure 3: Comparison of Aerodynamic Characteristics of the Unoptimized and the Optimized Wing (V = 109 km/h)*
 
 ---
