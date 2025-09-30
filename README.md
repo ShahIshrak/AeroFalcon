@@ -1,4 +1,4 @@
-# AERO FALCON 
+<img width="1536" height="847" alt="image" src="https://github.com/user-attachments/assets/988ce047-4344-4327-a24a-d210aae3242c" /># AERO FALCON 
 ## AERO-structural optimization for Flight And Lift-Constrained Optimization of Nonlinear twist 
 AERO FALCON: A Low-fidelity aero-structural optimization framework for small UAV wings. Combines classical lifting-line theory with ML-based airfoil polars (NeuralFoil), incorporating Reynolds variation, sweep effects, and structural constraints. Optimizes spanwise twist distribution to maximize C_L/C_D ratio for early-stage wing design.
 
@@ -7,7 +7,6 @@ AERO FALCON: A Low-fidelity aero-structural optimization framework for small UAV
 ## Table of Contents
 - [Features](#features)
 - [Results and Visualization](#results-and-visualization)
-- [Methodology](#methodology)
 - [References](#references)
 - [License](#license)
 
@@ -46,6 +45,27 @@ The AERO FALCON framework has been demonstrated using a small fixed-wing UAV con
 - **Young's Modulus (E)**: 0.0038 GPa
 - **Shear Yield Stress (τ_yield)**: 0.00509 MPa
 - **Poisson's Ratio**: 0.15
+
+---
+
+### At Cruise Velocity 32 km/h (8.89 m/s):
+
+![Summary of Results at 32 km/h](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_1_v_8.89.png?raw=true)  
+*Figure 1: Summary of Results Obtained (v=8.89 m/s).*
+
+![3D Wing (Both unoptimized and optimized)](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_2_v_8.89.png?raw=true)  
+*Figure 2: Visualization of the 3D wing (Both Unoptimized and Optimized).*
+
+
+### At Cruise Velocity 109 km/h (30.278 m/s):
+
+![Lift distribution at 109 km/h](sample_results/lift_distribution_109.png)  
+*Figure 3: Spanwise lift distribution at high-speed cruise (109 km/h).*
+
+![Drag polar at 109 km/h](sample_results/drag_polar_109.png)  
+*Figure 4: Drag polar comparison at 109 km/h.*
+
+---
 
 ## References
 [1] A. Hasnayeen, M. R. Iqbal, F. Syeed, and M. Sheikh, "Construction of a Small Fixed Wing UAV for Surveillance," AIAA AVIATION Forum, 2024.
