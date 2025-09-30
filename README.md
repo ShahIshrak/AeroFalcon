@@ -55,14 +55,20 @@ The AERO FALCON framework has been demonstrated using a small fixed-wing UAV con
 ![3D Wing (Both unoptimized and optimized)](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_2_v_8.89.png?raw=true)  
 *Figure 2: Visualization of the 3D wing (Both Unoptimized and Optimized).*
 
+![Comparison of Aerodynamic Characteristics of the Unoptimized and the Optimized Wing](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_3_v_8.89.png?raw=true).
+*Figure 3: Comparison of Aerodynamic Characteristics of the Unoptimized and the Optimized Wing (V = 32 km/h)*
+
 
 ### At Cruise Velocity 109 km/h (30.278 m/s):
 
-![Lift distribution at 109 km/h](sample_results/lift_distribution_109.png)  
-*Figure 3: Spanwise lift distribution at high-speed cruise (109 km/h).*
+![Summary of Results at 109 km/h](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_1_v_30.278.png?raw=true)  
+*Figure 1: Summary of Results Obtained (v=30.278 m/s).*
 
-![Drag polar at 109 km/h](sample_results/drag_polar_109.png)  
-*Figure 4: Drag polar comparison at 109 km/h.*
+![3D Wing (Both unoptimized and optimized)](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_2_v_30.278.png?raw=true)  
+*Figure 2: Visualization of the 3D wing (Both Unoptimized and Optimized).*
+
+![Comparison of Aerodynamic Characteristics of the Unoptimized and the Optimized Wing](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_3_v_30.278.png?raw=true).
+*Figure 3: Comparison of Aerodynamic Characteristics of the Unoptimized and the Optimized Wing (V = 109 km/h)*
 
 ---
 
