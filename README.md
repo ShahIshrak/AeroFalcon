@@ -62,13 +62,13 @@ The AERO FALCON framework has been demonstrated using a small fixed-wing UAV con
 ### At Cruise Velocity 109 km/h (30.278 m/s):
 
 ![Summary of Results at 109 km/h](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_1_v_30.278.png?raw=true)  
-*Figure 1: Summary of Results Obtained (v=30.278 m/s).*
+*Figure 4: Summary of Results Obtained (v=30.278 m/s).*
 
 ![3D Wing (Both unoptimized and optimized)](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_2_v_30.278.png?raw=true)  
-*Figure 2: Visualization of the 3D wing (Both Unoptimized and Optimized).*
+*Figure 5: Visualization of the 3D wing (Both Unoptimized and Optimized).*
 
 ![Comparison of Aerodynamic Characteristics of the Unoptimized and the Optimized Wing](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_3_v_30.278.png?raw=true)
-*Figure 3: Comparison of Aerodynamic Characteristics of the Unoptimized and the Optimized Wing (V = 109 km/h)*
+*Figure 6: Comparison of Aerodynamic Characteristics of the Unoptimized and the Optimized Wing (V = 109 km/h)*
 
 ---
 
