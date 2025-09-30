@@ -48,6 +48,10 @@ The AERO FALCON framework has been demonstrated using a small fixed-wing UAV con
 ---
 
 ### At Cruise Velocity 32 km/h (8.89 m/s):
+- Figure 1: Summary and 3D wing visualization at 32 km/h
+- Figure 2: 3D visualization of the Unoptimized and Optimized Wing at 32 km/h
+- Figure 3: Aerodynamic characteristics (C_L, C_D, C_L/C_D vs AoA) at 32 km/h
+- Figure 4–6: Equivalent results at 109 km/h
 
 ![Summary of Results at 32 km/h](https://github.com/ShahIshrak/AeroFalcon/blob/main/sample_results/Figure_1_v_8.89.png?raw=true)  
 *Figure 1: Summary of Results Obtained (v=8.89 m/s).*
