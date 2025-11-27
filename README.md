@@ -8,7 +8,7 @@ AERO FALCON: A Low-fidelity aero-structural optimization framework for small UAV
 - [Results and Visualization](#results-and-visualization)
 - [References](#references)
 - [License](#license)
-- [Citations](#citations)
+- [Citation](#citation)
 
 ---
 
