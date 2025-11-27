@@ -5,6 +5,7 @@ AERO FALCON: A Low-fidelity aero-structural optimization framework for small UAV
 
 ## Table of Contents
 - [Features](#features)
+- [Case Study](#case-study)
 - [Results and Visualization](#results-and-visualization)
 - [References](#references)
 - [License](#license)
@@ -27,7 +28,7 @@ AERO FALCON: A Low-fidelity aero-structural optimization framework for small UAV
 - Spanwise twist optimization under torsional limits
 ---
 
-## Results and Visualization
+## Case Study
 The AERO FALCON framework has been demonstrated using a small fixed-wing UAV configuration based on Hasnayeen et al. [1]. 
 
 ### Wing Geometry
@@ -51,6 +52,9 @@ The AERO FALCON framework has been demonstrated using a small fixed-wing UAV con
 - **Poisson's Ratio**: 0.15
 
 ---
+
+## Results and Visualization:
+- Additional figures (not in the published paper) are available here:
 
 - Figure 1: Summary and 3D wing visualization at 32 km/h
 - Figure 2: 3D visualization of the Unoptimized and Optimized Wing at 32 km/h
