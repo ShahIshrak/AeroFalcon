@@ -1,4 +1,4 @@
-<img width="561" height="88" alt="image" src="https://github.com/user-attachments/assets/31b57103-5f00-4d62-84e4-98c9b0609d5a" />## AERO-structural optimization for Flight And Lift-Constrained Optimization of Nonlinear twist 
+## AERO-structural optimization for Flight And Lift-Constrained Optimization of Nonlinear twist 
 AERO FALCON: A Low-fidelity aero-structural optimization framework for small UAV wings. Combines classical lifting-line theory with ML-based airfoil polars (NeuralFoil), incorporating Reynolds variation, sweep effects, and structural constraints. Optimizes spanwise twist distribution to maximize C_L/C_D ratio for early-stage wing design.
 
 ---
