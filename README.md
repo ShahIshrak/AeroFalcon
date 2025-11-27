@@ -54,7 +54,7 @@ The AERO FALCON framework has been demonstrated using a small fixed-wing UAV con
 ---
 
 ## Results and Visualization:
-- Additional figures (not in the published paper) are available here:
+Additional figures (not in the published paper) are available here:
 
 - Figure 1: Summary and 3D wing visualization at 32 km/h
 - Figure 2: 3D visualization of the Unoptimized and Optimized Wing at 32 km/h
