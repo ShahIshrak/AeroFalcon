@@ -5,6 +5,7 @@ AERO FALCON: A Low-fidelity aero-structural optimization framework for small UAV
 
 ## Table of Contents
 - [Features](#features)
+- [Working Methodology](#working-methodology)
 - [Case Study](#case-study)
 - [Results and Visualization](#results-and-visualization)
 - [References](#references)
@@ -27,6 +28,64 @@ AERO FALCON: A Low-fidelity aero-structural optimization framework for small UAV
   - ***Genetic Algorithm (GA)*** In case, SLSQP fails due to poor gradients or local minima. GA uses global-search mechanism to find the best solution.
 - Spanwise twist optimization under torsional limits
 ---
+
+## Working Methodology
+- ### 1. Inputs
+- Wing geometry (airfoil file, span, chord, Leading Edge Sweep Angle, AR, Taper Ratio, etc)
+
+- Material properties (Young’s modulus, shear yield, Poisson’s ratio, thickness)
+
+- Flight conditions (velocity, altitude, weight, air density, viscosity, etc)
+  
+- Aircraft Weight
+
+- ### 2. Pre‑Processing
+- NeuralFoil loads Reynolds‑dependent polars for each spanwise station
+
+- Spanwise Reynolds numbers computed from local chord and velocity
+
+- Geometry parameterization (twist distribution, sweep angles) initialized
+
+- ### 3. Aerodynamic Solver
+- Vortex Lattice / Lifting‑Line solver computes spanwise circulation
+
+- Drag components calculated: induced, profile, viscous, sweep penalty
+
+- Lift distribution checked against target C_L which has been calculated from input Aircraft Weight
+
+- ### 4. Structural Module
+- Torque‑box torsion model computes elastic twist limits
+
+- Local loads converted to torsional moments
+
+- Twist feasibility checked against shear yield criteria
+
+- ### 5. Optimization Loop
+- Objective: maximize CL/CD, minimize total drag
+
+- Constraints: lift ≥ target, twist ≤ torsional limit
+
+- SLSQP runs first for fast convergence
+
+- GA fallback if gradients are poor or local minima encountered
+
+- ### 6. Outputs
+- Optimized twist distribution (root, mid, tip)
+
+- Updated sweep angles
+
+- Spanwise plots: lift, drag, downwash, twist
+
+- Performance metrics: CL, CD, CL/CD improvement
+
+
+- ### Outputs:
+- CL, CD, CL/CD Plots
+- Wing geometry before and after Optimization
+- Detailed plots on Spanwise plots: lift, drag, downwash, twist and Output Summary
+- Iteration Convergence
+
+
 
 ## Case Study
 The AERO FALCON framework has been demonstrated using a small fixed-wing UAV configuration based on Hasnayeen et al. [1]. 
