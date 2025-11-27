@@ -20,8 +20,8 @@ AERO FALCON: A Low-fidelity aero-structural optimization framework for small UAV
 - **Multi-Parameter Optimization**: Spanwise twist and sweep distribution
 - **Real-time Visualization**: 3D wing geometry and performance plots
 - **Torque‑box torsion model** for structural feasibility
-- **Nonlinear constrained optimization:**
-- ***Sequential Least Squares Programming (SLSQP)*** for primary Optimization Process involving Gradient Descent.
+  - **Nonlinear constrained optimization:**
+  - ***Sequential Least Squares Programming (SLSQP)*** for primary Optimization Process involving Gradient Descent.
 - ***Genetic Algorithm (GA)*** In case, SLSQP fails due to poor gradients or local minima. GA uses global-search mechanism to find the best solution.
 - Spanwise twist optimization under torsional limits
 ---
